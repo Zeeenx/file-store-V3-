@@ -58,7 +58,8 @@ async def about_cb(c, m):
     about_text = f"""--**ABOUT:**--
 
  **MAINTAINER:** @realnub
- **CONTACT:** @plutxbot"""
+ **CONTACT:** @plutxbot
+ **SOURCE: [here](github.com/adityaprasad502/files)"""
 
     # creating buttons
     buttons = [
