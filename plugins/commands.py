@@ -23,7 +23,7 @@ async def start(c, m, cb=False):
         send_msg = await m.reply_text("**Processing...**", quote=True)
 
     owner = await c.get_users(int(OWNER_ID))
-    owner_username = if owner.username else 'Plutonium X'
+    owner_username = owner.username or 'Plutonium X'
 
     # start text
     text = f"""Hey {m.from_user.mention(style='md')} 👋. **I am a Telegram Files Box bot. I can help you to store your files and give you a permanent shareable link.\n\n👨‍💻 Maintainer: @realnub**"""
