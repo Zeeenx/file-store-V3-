@@ -22,10 +22,9 @@ async def start(c, m, cb=False):
 
 💡 ** I am Telegram File Store Bot**
 
-`You can store your Telegram Media for permanent Link!`
+`Saya dapat membantu Anda untuk menyimpan file Anda dan memberi Anda tautan permanen yang dapat dibagikan.`
 
 
-**👲 Maintained By:** {owner.mention(style='md')}
 """
 
     # Buttons
