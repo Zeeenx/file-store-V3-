@@ -49,7 +49,7 @@ async def refresh_cb(c, m):
                    pass
                return
         except UserNotParticipant:
-            await m.answer('You are not yet joined our channel. First join and then press refresh button 🤤', show_alert=True)
+            await m.answer('Anda belum bergabung di channel kami. Pertama bergabung lalu tekan tombol refresh 🤤', show_alert=True)
             return
         except Exception as e:
             print(e)
