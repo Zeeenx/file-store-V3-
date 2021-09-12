@@ -20,7 +20,7 @@ async def start(c, m, cb=False):
     # start text
     text = f"""Hey! {m.from_user.mention(style='md')}
 
-💡 **Bot Telegram File and share**
+💡 **Bot Telegram**
 
 `Saya dapat membantu Anda untuk menyimpan file Anda dan memberi Anda tautan permanen yang dapat dibagikan.`
 
@@ -30,11 +30,11 @@ async def start(c, m, cb=False):
     # Buttons
     buttons = [
         [
-            InlineKeyboardButton('My Father 👨‍✈️', url=f"https://t.me/duniamovie_v4"),
-            InlineKeyboardButton('Help 💡', callback_data="help")
+            InlineKeyboardButton('ᴄʜᴀɴɴᴇʟ 👨‍✈️', url=f"https://t.me/duniamovie_v4"),
+            InlineKeyboardButton('ʜᴇʟᴘ 💡', callback_data="help")
         ],
         [
-            InlineKeyboardButton('About 📕', callback_data="about")
+            InlineKeyboardButton('ᴀʙᴏᴜᴛ 📕', callback_data="about")
         ]
     ]
 
