@@ -17,11 +17,11 @@ async def forcesub(c, m):
                await m.reply_text("**Hey you are banned 😜**", quote=True)
                return
         except UserNotParticipant:
-            buttons = [[InlineKeyboardButton(text='subscribe 🔖', url=f"https://t.me/{UPDATE_CHANNEL}")]]
+            buttons = [[InlineKeyboardButton(text='🔑 sᴜʙsᴄʀɪʙᴇ ᴅᴜɴɪᴀᴍᴏᴠɪᴇ', url=f"https://t.me/{UPDATE_CHANNEL}")]]
             if m.text:
                 if (len(m.text.split(' ')) > 1) & ('start' in m.text):
                     chat_id, msg_id = m.text.split(' ')[1].split('_')
-                    buttons.append([InlineKeyboardButton('🔄 Refresh', callback_data=f'refresh+{chat_id}+{msg_id}')])
+                    buttons.append([InlineKeyboardButton('⚡️ ʀᴇғʀᴇsʜ', callback_data=f'refresh+{chat_id}+{msg_id}')])
             await m.reply_text(
                 f"Hey {m.from_user.mention(style='md')} Anda perlu bergabung di channel saya untuk menggunakan saya 😉\n\n"
                 "Tekan Tombol subscribe Sekarang",
