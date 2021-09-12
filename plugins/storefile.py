@@ -89,7 +89,7 @@ async def storefile_channel(c, m):
                 text += f"🎵 __Title:__ `{media.title}`\n\n" if media.title else ""
                 text += f"🎙 __Performer:__ `{media.performer}`\n\n" if media.performer else ""
     text += f"__✏ Caption:__ `{m.caption}`\n\n"
-    text += "**Uploader Details:**\n\n\n"
+    text += "**Uploader Detailshhh:**\n\n\n"
     text += f"__📢 Channel Name:__ `{m.chat.title}`\n\n"
     text += f"__🗣 User Name:__ @{m.chat.username}\n\n" if m.chat.username else ""
     text += f"__👤 Channel Id:__ `{m.chat.id}`\n\n"
