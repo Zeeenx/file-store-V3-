@@ -57,7 +57,7 @@ async def start(c, m, cb=False):
 
         if chat_id.startswith('-100'): #if file from channel
             channel = await c.get_chat(int(chat_id))
-            caption += "**--Uploader Details:--**\n\n"
+            caption += "**--Uploader Detailssss:--**\n\n"
             caption += f"__📢 Channel Name:__ `{channel.title}`\n\n"
             caption += f"__🗣 User Name:__ @{channel.username}\n\n" if channel.username else ""
             caption += f"__👤 Channel Id:__ `{channel.id}`\n\n"
@@ -66,7 +66,7 @@ async def start(c, m, cb=False):
 
         else: #if file not from channel
             user = await c.get_users(int(chat_id))
-            caption += "**--Uploader Details:--**\n\n"
+            caption += "**--Uploader Detailseee:--**\n\n"
             caption += f"__🦚 First Name:__ `{user.first_name}`\n\n"
             caption += f"__🐧 Last Name:__ `{user.last_name}`\n\n" if user.last_name else ""
             caption += f"__👁 User Name:__ @{user.username}\n\n" if user.username else ""
