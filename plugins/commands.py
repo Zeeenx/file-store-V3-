@@ -18,8 +18,7 @@ async def start(c, m, cb=False):
     owner_username = owner.username if owner.username else 'Ns_bot_updates'
 
     # start text
-    text = f"""Hello! {m.from_user.mention(style='md')}
-
+    text = f"""Hello ! {m.from_user.mention(style='md')}
 `Saya dapat membantu Anda untuk menyimpan file Anda dan memberi Anda tautan permanen yang dapat dibagikan.`
 
 
