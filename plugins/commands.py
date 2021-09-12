@@ -49,7 +49,7 @@ async def start(c, m, cb=False):
 
         if msg.empty:
             owner = await c.get_users(int(OWNER_ID))
-            return await m.reply_text(f"🥴 Sorry bro your file was missing\n\nPlease contact my owner 👉 {owner.mention(style='md')}")
+            return await m.reply_text(f"🥴 Maaf bro filenya hilang atau di hapus")
         
         caption = f"{msg.caption.markdown}\n\n\n" if msg.caption else ""
 
