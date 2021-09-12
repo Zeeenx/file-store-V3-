@@ -22,7 +22,7 @@ async def storefile(c, m):
     # text
     text = ""
     if not m.photo:
-        text = "--**🗃️ Rincian Berkas:**--\n\n\n"
+        text = "--**🗃️ Rincian Berkas:**--\n\n"
         text += f"📂 __Name File:__ `{media.file_name}`\n\n" if media.file_name else ""
         text += f"💽 __Format File:__ `{media.mime_type}`\n\n" if media.mime_type else ""
         text += f"📊 __Ukuran File:__ `{humanbytes(media.file_size)}`\n\n" if media.file_size else ""
@@ -32,7 +32,7 @@ async def storefile(c, m):
                 text += f"🎵 __Title:__ `{media.title}`\n\n" if media.title else ""
                 text += f"🎙 __Performer:__ `{media.performer}`\n\n" if media.performer else ""
     text += f"__✏ Caption:__ `{m.caption}`\n\n" if m.caption else ""
-    text += "**--Uploader Details:--**\n\n\n"
+    text += "**--Detail Pengunggah:--**\n\n\n"
     text += f"__🦚 First Name:__ `{m.from_user.first_name}`\n\n"
     text += f"__🐧 Last Name:__ `{m.from_user.last_name}`\n\n" if m.from_user.last_name else ""
     text += f"__👁 User Name:__ @{m.from_user.username}\n\n" if m.from_user.username else ""
