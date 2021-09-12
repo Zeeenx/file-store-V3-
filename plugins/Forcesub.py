@@ -23,7 +23,7 @@ async def forcesub(c, m):
                     chat_id, msg_id = m.text.split(' ')[1].split('_')
                     buttons.append([InlineKeyboardButton('🔄 Refresh', callback_data=f'refresh+{chat_id}+{msg_id}')])
             await m.reply_text(
-                f"Hey {m.from_user.mention(style='md')} you need join My updates channel in order to use me 😉\n\n"
+                f"Hey {m.from_user.mention(style='md')} Anda perlu bergabung di channel saya untuk menggunakan saya 😉\n\n"
                 "__Press the Following Button to join Now 👇__",
                 reply_markup=InlineKeyboardMarkup(buttons),
                 quote=True
