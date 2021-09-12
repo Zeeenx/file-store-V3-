@@ -17,14 +17,13 @@ async def help_cb(c, m):
     await m.answer()
 
     # help text
-    help_text = """**You need Help?? 🧐**
+    help_text = """ᴀɴᴅᴀ ᴍᴇᴍʙᴜᴛᴜʜᴋᴀɴ ʙᴀɴᴛᴜᴀɴ ?? 🧐
 
-★ Kirimkan saja saya file, saya akan menyimpan file dan memberi Anda tautan yang dapat dibagikan
+★ ᴋɪʀɪᴍᴋᴀɴ sᴀᴊᴀ sᴀʏᴀ ғɪʟᴇ, sᴀʏᴀ ᴀᴋᴀɴ ᴍᴇɴʏɪᴍᴘᴀɴ ғɪʟᴇ ᴅᴀɴ ᴍᴇᴍʙᴇʀɪ ᴀɴᴅᴀ ᴛᴀᴜᴛᴀɴ ʏᴀɴɢ ᴅᴀᴘᴀᴛ ᴅɪʙᴀɢɪᴋᴀɴ
 
+ᴀɴᴅᴀ ᴅᴀᴘᴀᴛ ᴍᴇɴɢɢᴜɴᴀᴋᴀɴ sᴀʏᴀ ᴅɪ sᴀʟᴜʀᴀɴ ᴊᴜɢᴀ 😉
 
-Anda dapat menggunakan saya di saluran juga 😉
-
-★ Jadikan saya admin di channel Anda dengan izin edit. Cukup sekarang lanjutkan mengunggah file di channel saya akan mengedit semua posting dan menambahkan tombol url tautan yang dapat dibagikan.‌‌"""
+★  ᴊᴀᴅɪᴋᴀɴ sᴀʏᴀ ᴀᴅᴍɪɴ ᴅɪ ᴄʜᴀɴɴᴇʟ ᴀɴᴅᴀ ᴅᴇɴɢᴀɴ ɪᴢɪɴ ᴇᴅɪᴛ. ᴄᴜᴋᴜᴘ sᴇᴋᴀʀᴀɴɢ ʟᴀɴᴊᴜᴛᴋᴀɴ ᴍᴇɴɢᴜɴɢɢᴀʜ ғɪʟᴇ ᴅɪ ᴄʜᴀɴɴᴇʟ sᴀʏᴀ ᴀᴋᴀɴ ᴍᴇɴɢᴇᴅɪᴛ sᴇᴍᴜᴀ ᴘᴏsᴛɪɴɢ ᴅᴀɴ ᴍᴇɴᴀᴍʙᴀʜᴋᴀɴ ᴛᴏᴍʙᴏʟ ᴜʀʟ ᴛᴀᴜᴛᴀɴ ʏᴀɴɢ ᴅᴀᴘᴀᴛ ᴅɪʙᴀɢɪᴋᴀɴ.‌.‌‌"""
 
     # creating buttons
     buttons = [
