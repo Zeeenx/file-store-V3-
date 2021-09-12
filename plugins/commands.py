@@ -20,7 +20,7 @@ async def start(c, m, cb=False):
     # start text
     text = f"""Hey! {m.from_user.mention(style='md')}
 
-💡 ** I am Telegram File Store Bot**
+💡 **Bot Telegram File and share**
 
 `Saya dapat membantu Anda untuk menyimpan file Anda dan memberi Anda tautan permanen yang dapat dibagikan.`
 
@@ -30,7 +30,7 @@ async def start(c, m, cb=False):
     # Buttons
     buttons = [
         [
-            InlineKeyboardButton('My Father 👨‍✈️', url=f"https://t.me/{owner_username}"),
+            InlineKeyboardButton('My Father 👨‍✈️', url=f"https://t.me/duniamovie_v4"),
             InlineKeyboardButton('Help 💡', callback_data="help")
         ],
         [
@@ -57,7 +57,7 @@ async def start(c, m, cb=False):
 
         if chat_id.startswith('-100'): #if file from channel
             channel = await c.get_chat(int(chat_id))
-            caption += "**--Uploader Detailssss:--**\n\n"
+            caption += "**--Uploader Details:--**\n\n"
             caption += f"__📢 Channel Name:__ `{channel.title}`\n\n"
             caption += f"__🗣 User Name:__ @{channel.username}\n\n" if channel.username else ""
             caption += f"__👤 Channel Id:__ `{channel.id}`\n\n"
