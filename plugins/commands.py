@@ -30,7 +30,7 @@ async def start(c, m, cb=False):
     # Buttons
     buttons = [
         [
-            InlineKeyboardButton('ᴄʜᴀɴɴᴇʟ 👨‍✈️', url=f"https://t.me/duniamovie_v4"),
+            InlineKeyboardButton('ᴄʜᴀɴɴᴇʟ 👨‍✈️', url=f"https://t.me/joinchat/GZ0yLAPeD25lYWQ1"),
             InlineKeyboardButton('ʜᴇʟᴘ 💡', callback_data="help")
         ],
         [
